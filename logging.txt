@@ -1,0 +1,31 @@
+Request method:	GET
+Request URI:	https://api-ssl.bitly.com/v4/groups/Bl9s7SOt/bitlinks/clicks?unit=day
+Proxy:			<none>
+Request params:	<none>
+Query params:	unit=day
+Form params:	<none>
+Path params:	<none>
+Headers:		Authorization=Bearer df29c156298562712c83d17e87a3e6f16b651242
+				Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 403 Forbidden
+Server: nginx
+Date: Thu, 30 Sep 2021 17:29:24 GMT
+Content-Type: application/json
+Content-Length: 114
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-XSS-Protection: 1; mode=blockFilter
+X-Content-Type-Options: nosniff
+X-Frame-Options: DENY
+Content-Security-Policy: default-src 'none
+Via: 1.1 google
+Alt-Svc: clear
+
+{
+    "message": "FORBIDDEN",
+    "resource": "bitlinks",
+    "description": "You are currently forbidden to access this resource."
+}
