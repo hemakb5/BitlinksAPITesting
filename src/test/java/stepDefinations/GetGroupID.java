@@ -54,35 +54,5 @@ public class GetGroupID {
 		res.then().log().all().spec(resp).statusCode(statusCode);
 	}
 	
-	
-	
-//	public static void main(String[] args) throws IOException {
-//		Utils util = new Utils();
-//
-////		APIResources resourceAPI=APIResources.valueOf("RetrieveGroupAPI");
-//		APIResources resourceAPI=APIResources.valueOf("AddBitLinkAPI");
-//		
-//		String resource = resourceAPI.getResource();
-//		
-//		Map<String, String> headers = new HashMap<String, String>();
-//		headers.put("Content-Type","application/json");
-//		headers.put("Authorization","Bearer df29c156298562712c83d17e87a3e6f16b651242");
-//	  
-//		RequestSpecification rs = new RequestSpecBuilder().setBaseUri(util.getGlobalValue("baseUrl")).addHeaders(headers).build();
-//		ResponseSpecification resp = new ResponseSpecBuilder().expectStatusCode(200).build();
-//		
-//		
-//		TestDataBuild testData = new TestDataBuild();
-//		System.out.println(testData.createBitLinkPayLoad("https://autoTest123.com", "Bl9s7SOtulG"));
-//
-//		
-//		RequestSpecification request = given().log().all().spec(rs).body(testData.createBitLinkPayLoad("https://autoTest123.com", "Bl9s7SOtulG"));
-//		Response res = request.when().post(resource);
-//		res.then().log().all().spec(resp).statusCode(200);
-//		
-//		
-//
-//
-//	}
 
 }
